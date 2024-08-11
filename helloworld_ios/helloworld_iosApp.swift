@@ -11,7 +11,7 @@ import SwiftUI
 struct helloworld_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginUI()
         }
     }
 }

@@ -14,6 +14,11 @@
 		52E856422C67A84900607042 /* helloworld_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E856412C67A84900607042 /* helloworld_iosTests.swift */; };
 		52E8564C2C67A84900607042 /* helloworld_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8564B2C67A84900607042 /* helloworld_iosUITests.swift */; };
 		52E8564E2C67A84900607042 /* helloworld_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8564D2C67A84900607042 /* helloworld_iosUITestsLaunchTests.swift */; };
+		52E8565B2C67B57D00607042 /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8565A2C67B57D00607042 /* LoginUI.swift */; };
+		52E8565E2C68D26F00607042 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8565D2C68D26F00607042 /* BottomNavBar.swift */; };
+		52E856602C68D33F00607042 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8565F2C68D33F00607042 /* HomeView.swift */; };
+		52E856622C68D37D00607042 /* ActivitiyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E856612C68D37D00607042 /* ActivitiyView.swift */; };
+		52E856642C68D38A00607042 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E856632C68D38A00607042 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		52E856472C67A84900607042 /* helloworld_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworld_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E8564B2C67A84900607042 /* helloworld_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworld_iosUITests.swift; sourceTree = "<group>"; };
 		52E8564D2C67A84900607042 /* helloworld_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworld_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52E8565A2C67B57D00607042 /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
+		52E8565D2C68D26F00607042 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		52E8565F2C68D33F00607042 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52E856612C68D37D00607042 /* ActivitiyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyView.swift; sourceTree = "<group>"; };
+		52E856632C68D38A00607042 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,12 @@
 		52E8562F2C67A84600607042 /* helloworld_ios */ = {
 			isa = PBXGroup;
 			children = (
+				52E8565C2C68D25400607042 /* ui */,
 				52E856302C67A84600607042 /* helloworld_iosApp.swift */,
 				52E856322C67A84600607042 /* ContentView.swift */,
 				52E856342C67A84800607042 /* Assets.xcassets */,
 				52E856362C67A84800607042 /* Preview Content */,
+				52E8565A2C67B57D00607042 /* LoginUI.swift */,
 			);
 			path = helloworld_ios;
 			sourceTree = "<group>";
@@ -125,6 +137,17 @@
 				52E8564D2C67A84900607042 /* helloworld_iosUITestsLaunchTests.swift */,
 			);
 			path = helloworld_iosUITests;
+			sourceTree = "<group>";
+		};
+		52E8565C2C68D25400607042 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				52E8565D2C68D26F00607042 /* BottomNavBar.swift */,
+				52E8565F2C68D33F00607042 /* HomeView.swift */,
+				52E856612C68D37D00607042 /* ActivitiyView.swift */,
+				52E856632C68D38A00607042 /* SettingsView.swift */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E856642C68D38A00607042 /* SettingsView.swift in Sources */,
+				52E8565E2C68D26F00607042 /* BottomNavBar.swift in Sources */,
+				52E8565B2C67B57D00607042 /* LoginUI.swift in Sources */,
 				52E856332C67A84600607042 /* ContentView.swift in Sources */,
+				52E856602C68D33F00607042 /* HomeView.swift in Sources */,
 				52E856312C67A84600607042 /* helloworld_iosApp.swift in Sources */,
+				52E856622C68D37D00607042 /* ActivitiyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

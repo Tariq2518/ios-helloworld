@@ -14,7 +14,6 @@ struct LoginUI: View {
     var body: some View {
         
         NavigationView{
-    
         VStack{
             Text("Login").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             TextField("Username", text: $username)
@@ -37,7 +36,6 @@ struct LoginUI: View {
                     Text("Guest Mode").font(.body)
                 }
             }
-
             Toggle("Switch", isOn: $isOn)
             
             

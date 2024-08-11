@@ -31,13 +31,12 @@ struct ContentView: View {
                 .background(.blue)
                 .foregroundColor(.white)
                 .cornerRadius(12)
-                
                 Text("Clicked this button \(tap) times")
                 
                 NavigationLink(destination: BottomNavBar()) {
                     Text("Bottom Bar").font(.body)
                 }
-                
+            
                 Button(action: {
                     isOpen.toggle()
                 }, label: {

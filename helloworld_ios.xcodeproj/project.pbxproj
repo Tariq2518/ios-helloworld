@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529E09512C68E93600ACD43C /* Onboarding Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E09502C68E93600ACD43C /* Onboarding Screens.swift */; };
 		52E856312C67A84600607042 /* helloworld_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E856302C67A84600607042 /* helloworld_iosApp.swift */; };
 		52E856332C67A84600607042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E856322C67A84600607042 /* ContentView.swift */; };
 		52E856352C67A84800607042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E856342C67A84800607042 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529E09502C68E93600ACD43C /* Onboarding Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding Screens.swift"; sourceTree = "<group>"; };
 		52E8562D2C67A84600607042 /* helloworld_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E856302C67A84600607042 /* helloworld_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworld_iosApp.swift; sourceTree = "<group>"; };
 		52E856322C67A84600607042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529E094F2C68E91A00ACD43C /* onboarding screens */ = {
+			isa = PBXGroup;
+			children = (
+				529E09502C68E93600ACD43C /* Onboarding Screens.swift */,
+			);
+			path = "onboarding screens";
+			sourceTree = "<group>";
+		};
 		52E856242C67A84600607042 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		52E8565C2C68D25400607042 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				529E094F2C68E91A00ACD43C /* onboarding screens */,
 				52E8565D2C68D26F00607042 /* BottomNavBar.swift */,
 				52E8565F2C68D33F00607042 /* HomeView.swift */,
 				52E856612C68D37D00607042 /* ActivitiyView.swift */,
@@ -281,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E856642C68D38A00607042 /* SettingsView.swift in Sources */,
+				529E09512C68E93600ACD43C /* Onboarding Screens.swift in Sources */,
 				52E8565E2C68D26F00607042 /* BottomNavBar.swift in Sources */,
 				52E8565B2C67B57D00607042 /* LoginUI.swift in Sources */,
 				52E856332C67A84600607042 /* ContentView.swift in Sources */,

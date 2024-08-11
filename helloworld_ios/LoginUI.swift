@@ -38,6 +38,10 @@ struct LoginUI: View {
             }
             Toggle("Switch", isOn: $isOn)
             
+            NavigationLink(destination: Onboarding_Screens()) {
+                Text("OnBoarding").font(.body)
+            }
+            
             
                 
             
